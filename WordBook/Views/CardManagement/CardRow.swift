@@ -26,7 +26,7 @@ struct CardRow: View {
 
                 // Example (if exists)
                 if let example = card.example, !example.isEmpty {
-                    Text("\"\(example)\"")
+                    Text(example)
                         .font(Typography.caption)
                         .italic()
                         .foregroundStyle(ColorTheme.textSecondary)

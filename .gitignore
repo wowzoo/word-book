@@ -123,3 +123,7 @@ Temporary Items
 *.swp
 *.swo
 *~
+
+# ETC
+CLAUDE.md
+
